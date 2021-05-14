@@ -48,7 +48,7 @@ true --> value
 
 ## 3. The new TypeScript let keyword helps to eliminate those issues 
 
-### Typescript is stronly typed
+### >>> Typescript is stronly typed
 
 # Template String
 
@@ -57,6 +57,16 @@ let lname : string "nigam";
 console.log("Hi "+fname+" "+lname);
 console.log("Hi "+${fname}+" "+${lname});
 
+
+# For loop
+### a) loops in typescript is exactly same as normal javascript code 
+### b) loops are use to perform any task repeatidly
+for(let i=0 ; i<5 ; i++){
+    console.log(i)
+}
+
+# Arrays
+### a) arrays are those which can store some values at a time and whenever we want we can retrieve those values from array
 
 
 
