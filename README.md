@@ -91,7 +91,7 @@ class ClassName{
     >>> private : property is only accessible in current class
 
 ## Traditional Constructor code VS TypeScript shortcut
-### Tradition constructo code
+### Traditional constructor code
 
 class Customer{
     fname : string
@@ -113,8 +113,9 @@ class Customer{
 }
 
 # Inheritance
-### 1. TypeScript support the  object oriented concept of inheritance
-### 2. Define common properties and methods on the superclas
-### 3. Support for abstract classes and overriding 
-### 4. TypeScript only supports single inheritance
-### 5. However , you can implement multiple interfaces
+### TypeScript support the  object oriented concept of inheritance
+### Define common properties and methods on the superclas
+### Support for abstract classes and overriding 
+### TypeScript only supports single inheritance
+### However , you can implement multiple interfaces
+
