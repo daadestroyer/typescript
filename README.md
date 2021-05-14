@@ -22,5 +22,45 @@ run the generated javascript code (.js file)
 
 >> node mydemo.js
 
+# Basic datatypes
+
+boolean  true/false 
+number   supports integer and floating point numbers
+string   text data enclosed in a single or double quotes
+any      support any datatype assignment
+others   <a href="https://www.typescriptlang.org">see details</a>
+
+
+## defining a variable:
+let <variableName> : <type> = <initial_value>;
+let found : boolean = true;
+
+found --> variable name
+boolean --> datatype
+true --> value
+
+# Typescript let keyword:
+## 1. We are using the new TypeScript let keyword for variables declarations
+   As opposed to using traditional javascript "var" keyword
+## 2. The javascript var keyword had a number of gotchas and pitfalls
+
+   Scoping , capturing , shadowing etc.
+
+## 3. The new TypeScript let keyword helps to eliminate those issues 
+
+### Typescript is stronly typed
+
+# Template String
+
+let fname : string "shubham";
+let lname : string "nigam";
+console.log("Hi "+fname+" "+lname);
+console.log("Hi "+${fname}+" "+${lname});
+
+
+
+
+
+
 
 
