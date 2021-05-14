@@ -89,3 +89,26 @@ class ClassName{
     >>> public : property is accesible to all classes (default modifier)
     >>> proptedted : property is on accessible in current class and subclasses
     >>> private : property is only accessible in current class
+
+## Traditional Constructor code VS TypeScript shortcut
+### Tradition constructo code
+
+class Customer{
+    fname : string
+    lname : string
+
+    constructor(fname:string,lname:string){
+        this.fname=fname;
+        this.lname=lname;
+    }
+}
+
+### Typescript shortcut
+class Customer{
+
+    constructor(private fname:string,private lname:string){
+        this.fname=fname;
+        this.lname=lname;
+    }
+}
+    
