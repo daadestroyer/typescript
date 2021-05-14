@@ -113,9 +113,9 @@ class Customer{
 }
 
 # Inheritance
-### TypeScript support the  object oriented concept of inheritance
-### Define common properties and methods on the superclas
-### Support for abstract classes and overriding 
-### TypeScript only supports single inheritance
-### However , you can implement multiple interfaces
+#### TypeScript support the  object oriented concept of inheritance
+#### Define common properties and methods on the superclas
+#### Support for abstract classes and overriding 
+#### TypeScript only supports single inheritance
+#### However , you can implement multiple interfaces
 
