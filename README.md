@@ -71,6 +71,21 @@ for(let i=0 ; i<5 ; i++){
 
 
 
+# Classes
+class ClassName{
+    <!-- Properties -->
+    <!-- Constructors -->
+    <!-- Getter and Setter methods -->
+}
 
+### 1. Constructor
+>>>constructor are those which are use to instantiate class    
+   variables
 
+   example:
+   let varName = new ClassName("value1",value2);
 
+### 2. Access Modifiers
+    >>> public : property is accesible to all classes (default modifier)
+    >>> proptedted : property is on accessible in current class and subclasses
+    >>> private : property is only accessible in current class
